@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.0.0' # Specify a compatible Ruby version
+ruby '3.1.2' # Specify a compatible Ruby version
 
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 3.0'
