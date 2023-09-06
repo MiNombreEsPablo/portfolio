@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '3.0.0' # Specify a compatible Ruby version
+
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 3.0'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
