@@ -17,6 +17,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.2.2)
     contracts (0.17)
+    date (3.3.3)
     dotenv (2.8.1)
     erubis (2.7.0)
     execjs (2.8.1)
@@ -32,6 +33,7 @@ GEM
     hashie (3.6.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
+    json (2.6.3)
     kramdown (2.4.0)
       rexml
     listen (3.8.0)
@@ -75,6 +77,10 @@ GEM
       uglifier (~> 3.0)
       webrick
     minitest (5.19.0)
+    open-uri (0.3.0)
+      stringio
+      time
+      uri
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -91,15 +97,19 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
+    stringio (3.0.8)
     temple (0.10.2)
     thor (1.2.2)
     tilt (2.0.11)
+    time (0.2.2)
+      date
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    uri (0.12.2)
     webrick (1.8.1)
 
 PLATFORMS
@@ -107,8 +117,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  json
   middleman (~> 4.2)
   middleman-autoprefixer (~> 3.0)
+  open-uri
   tzinfo-data
   wdm (~> 0.1)
 
